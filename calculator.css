@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #e0e0e0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.calculator{
+    width: 300px;
+    height: auto;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 8px #bebebe, -5px -5px 8px #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    border-radius: 30px;
+    
+}
+input{
+    width: 280px;
+    grid-column: span 4;
+    padding: 30px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 8px #bebebe, inset -5px -5px 8px #ffffff;
+    font-size: 3rem;
+    text-align: end;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button{
+    width: 50px;
+    height: auto;
+    margin: 15px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 8px #bebebe, -5px -5px 8px #ffffff;
+}
+#equal{
+    width: 110px;
+    border-radius: 10px;
+}
